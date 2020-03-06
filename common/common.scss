@@ -4,3 +4,92 @@ $theme_gradient: linear-gradient(45deg, #447CE4, #55CAFF, #00B6A4);
 .d-header {
   background: $theme_gradient;
 }
+
+
+// Readability
+.categories-wrapper .category-name {
+    color: white;
+}
+
+.d-header {
+    .topic-header-extra .discourse-tag {
+    color: white !important;
+    }
+    .topic-header-extra .d-icon {
+    color: white;
+    }
+    .topic-header-extra .topic-featured-link {
+    color: white;
+    }
+}
+
+button.sign-up-button, button.login-button {
+    background-color: #447ce4;
+    .discourse-no-touch & {
+    &:hover {
+        background-color: #71a0f7;
+        }
+    }
+}
+
+/* FA closed and assign */
+.header-title .d-icon {
+    color: white !important;
+}
+
+// Header nav
+
+.d-header-icons {
+  .drop-down-mode & {
+    .active .icon {
+      color: $primary-medium;
+      .d-icon {
+        color: $primary-medium;
+      }
+    }
+  }
+}
+
+// Search
+
+// code thanks to melhosseiny's Discourse Ghost Cyberpunk theme
+
+$gradient: linear-gradient(120deg,
+  rgba(68, 124, 228, 0.25),
+  rgba(85, 206, 255, 0.25),
+  rgba(0, 182, 164, 0.25)
+);
+
+$highlight-alt: rgba(253,238,6,0.25);
+$bios: #1d3bf0;
+
+
+// base:search
+.search-container {
+  .search-advanced {
+    .search-bar input { padding: 9px; }
+    .search-info { border-bottom: 0 none; }
+    .search-notice .fps-invalid { border: 0; }
+  }
+  .search-advanced-sidebar {
+    .search-advanced-title, .search-advanced-filters {
+      background: $gradient;
+    }
+    .search-advanced-filters {
+      border-bottom: 1px solid $highlight-alt;
+    }
+  }
+}
+
+/*
+.search-results {
+  .fps-result {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: $secondary;
+    border-bottom: 1px solid $bios;
+    .search-link, .search-link:visited .topic-title { color: $primary; }
+    .search-meta { color: #5f6368; }
+    .date { margin-right: 4px; }
+  }
+}*/
