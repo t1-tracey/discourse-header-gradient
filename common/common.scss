@@ -1,5 +1,6 @@
-/*$theme_gradient: linear-gradient(315deg, #02bd3a, #00bb78, #00b6a4, #00aebe, #04a3c4);*/
-$theme_gradient: linear-gradient(45deg, #447CE4, #55CAFF, #00B6A4);
+/*$theme_gradient: linear-gradient(315deg, #02bd3a, #00bb78, #00b6a4, #00aebe, #04a3c4);*/ // green & blue
+/*$theme_gradient: linear-gradient(45deg, #447CE4, #55CAFF, #00B6A4);*/ // green & blue
+$theme_gradient: linear-gradient(45deg, #F65CBA, #F6E25C, #39C2F1); // rainbow
 
 .d-header {
   background: $theme_gradient;
