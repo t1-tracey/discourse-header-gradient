@@ -6,7 +6,7 @@ $theme_gradient: linear-gradient(45deg, #F65CBA, #F6E25C, #39C2F1); // rainbow
   background: $theme_gradient;
 }
 
-// Post grippie
+// Post grippie thanks to MeghnaAJ's discourse-rainbow-theme
 .open .grippie {
   background: $theme_gradient;
 }
@@ -57,8 +57,20 @@ button.sign-up-button, button.login-button {
 
 // Search
 
-// code thanks to melhosseiny's Discourse Ghost Cyberpunk theme
+// Advanced Search thanks to MeghnaAJ's discourse-rainbow-theme
+// *------------------------------------------------*
+.search-container .search-advanced-sidebar {
+  .search-advanced-title {
+    background: $theme_gradient;
+    border-radius: 10px 10px 0 0;
+  }
+  .search-advanced-filters {
+    border-radius: 0 0 10px 10px;
+  }
+}
 
+// code thanks to melhosseiny's Discourse Ghost Cyberpunk theme
+/*
 $gradient: linear-gradient(120deg,
   rgba(68, 124, 228, 0.25),
   rgba(85, 206, 255, 0.25),
@@ -84,7 +96,7 @@ $bios: #1d3bf0;
       border-bottom: 1px solid $highlight-alt;
     }
   }
-}
+}*/
 
 /*
 .search-results {
