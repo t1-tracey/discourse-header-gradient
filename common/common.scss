@@ -6,6 +6,10 @@ $theme_gradient: linear-gradient(45deg, #F65CBA, #F6E25C, #39C2F1); // rainbow
   background: $theme_gradient;
 }
 
+// Post grippie
+.open .grippie {
+  background: $theme_gradient;
+}
 
 // Readability
 .categories-wrapper .category-name {
