@@ -6,10 +6,10 @@ $theme_gradient: linear-gradient(45deg, #F65CBA, #F6E25C, #39C2F1); // rainbow
 
 // Post grippie thanks to MeghnaAJ's discourse-rainbow-theme
 .open .grippie {
-  background: $theme_gradient;
+  background: $theme_gradient !important;
 
   &:before {
-      border-top: 3px double var(--secondary);
+      border-top: 3px double var(--secondary) !important;
     }
 }
 
